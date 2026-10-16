@@ -1,49 +1,95 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="hi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
-
+    <title>Bright Future Coaching</title>
+<
     <style>
         body {
-            background-color: lightyellow;
-            text-align: center;
+            margin: 0;
             font-family: Arial, sans-serif;
+            background: #f0f4f8;
+            text-align: center;
         }
 
-        h1 {
-            color: darkblue;
-            front-size:35px
+        header {
+            background: #123c69;
+            color: white;
+            padding: 25px 10px;
         }
 
-        p {
-            color: green;
-            font-size: 20px;
+        nav {
+            background: #0b2545;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        .box {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 12px;
         }
 
         button {
-            background-color: blue;
+            background: #087f5b;
             color: white;
-            padding: 12px 20px;
+            padding: 12px 22px;
             border: none;
             border-radius: 8px;
+            font-size: 16px;
         }
-    h2 {
-    color: purple;
-    
-}
-</style>
-button {
-    cursor: pointer;
-    font-size: 18px;
-  }
+
+        footer {
+            background: #123c69;
+            color: white;
+            padding: 15px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Welcome to My Website!</h1>
-<h2>My name is Raunit</h2>
-    <p>Yeh meri pehli website hai.</p>
-    <button onclick="alert('Namaste Dost!')">Click Karo</button>
+
+    <header>
+        <h1>Bright Future Coaching</h1>
+        <p>आपके उज्ज्वल भविष्य की शुरुआत!</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="box" id="home">
+        <h2>हमारी कोचिंग में आपका स्वागत है!</h2>
+        <p>यहाँ पढ़ाई करें और अपने लक्ष्य की ओर बढ़ें।</p>
+    </section>
+
+    <section class="box" id="courses">
+        <h2>हमारे कोर्स</h2>
+        <p>कक्षा 6 से 10 तक</p>
+        <p>गणित, विज्ञान और अंग्रेज़ी</p>
+    </section>
+
+    <section class="box" id="contact">
+        <h2>संपर्क करें</h2>
+        <p>प्रवेश और फीस की जानकारी के लिए संपर्क करें।</p>
+         <a href="https://wa.me/91XXXXXXXXXX"
+   style="display:inline-block;background:#25D366;color:white;padding:12px 22px;text-decoration:none;border-radius:8px;">
+   WhatsApp पर संपर्क करें
+         </a>
+    </section>
+
+    <footer>
+        <p>© 2026 Bright Future Coaching</p>
+    </footer>
+
 </body>
 </html>
